@@ -3,7 +3,7 @@ For the Project, you will need to use the following API (Application Programming
 
 ## Get the list of quotes
 Use the following API entry point  
-http://api.techlaunch.online/quotes/all.php   
+http://api.techlaunch.io/quotes/all.php   
 
 To receive the following JSON response:
 ```
@@ -29,7 +29,7 @@ To receive the following JSON response:
 
 ## Get a quote based on ID
 Use the following API entry point  
-http://api.techlaunch.online/quotes/pick.php?id={ID}  
+http://api.techlaunch.io/quotes/pick.php?id={ID}  
 
 When passing ID 165, you will receive the following JSON response:  
 ```
