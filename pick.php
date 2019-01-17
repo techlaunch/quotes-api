@@ -13,6 +13,9 @@ $quotes = json_decode($quotesJSON);
 // check if the ID is valid
 if( ! is_numeric($id) || $id < 0 || $id > count($quotes)) die("The quote ID is invalid");
 
+// enable cors policy so apps can fetch
+header("Access-Control-Allow-Origin: *");
+
 // find and echo the right quote
 foreach ($quotes as $quote) {
 	if($quote->id == $id) {
