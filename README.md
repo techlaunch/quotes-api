@@ -29,7 +29,7 @@ To receive the following JSON response:
 
 ## Get one quote based on ID
 Use the following API entry point  
-http://api.techlaunch.io/quotes/pick.php?id={ID}  
+http://api.techlaunch.io/quotes/pick.php?id=*ID*   
 
 When passing ID 165, you will receive the following JSON response:  
 ```
